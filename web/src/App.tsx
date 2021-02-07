@@ -1,9 +1,12 @@
 import React from 'react';
-import Header from './Header';
+import './assets/styles/global.css';
 
 function App() {
   return (
-    <Header />
+    <header>
+      <h1>Hello, World!</h1>
+      <button type="button">Click here!</button>
+    </header>
   );
 }
 

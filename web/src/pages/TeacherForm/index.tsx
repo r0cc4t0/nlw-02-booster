@@ -68,13 +68,13 @@ const TeacherForm = () => {
           <fieldset>
             <legend>Seus Dados</legend>
             <Input label="Nome Completo" name="name" value={name}
-              onChange={(e) => { setName(e.target.value) }} />
+              onChange={e => setName(e.target.value)} />
             <Input label="Avatar" name="avatar" value={avatar}
-              onChange={(e) => { setAvatar(e.target.value) }} />
+              onChange={e => setAvatar(e.target.value)} />
             <Input label="WhatsApp" name="whatsapp" value={whatsapp}
-              onChange={(e) => { setWhatsapp(e.target.value) }} />
+              onChange={e => setWhatsapp(e.target.value)} />
             <TextArea label="Biografia" name="bio" value={bio}
-              onChange={(e) => { setBio(e.target.value) }} />
+              onChange={e => setBio(e.target.value)} />
           </fieldset>
 
           <fieldset>
@@ -83,7 +83,7 @@ const TeacherForm = () => {
               label="Matéria"
               name="subject"
               value={subject}
-              onChange={(e) => { setSubject(e.target.value) }}
+              onChange={e => setSubject(e.target.value)}
               options={[
                 { value: 'Artes', label: 'Artes' },
                 { value: 'Biologia', label: 'Biologia' },
@@ -98,7 +98,7 @@ const TeacherForm = () => {
               ]}
             />
             <Input label="Custo da Hora por Aula" name="cost" value={cost}
-              onChange={(e) => { setCost(e.target.value) }} />
+              onChange={e => setCost(e.target.value)} />
           </fieldset>
 
           <fieldset>
@@ -142,7 +142,7 @@ const TeacherForm = () => {
             Importante!<br />
             Preencha todos os dados.
           </p>
-            <button type="submit">Salvar Cadastro.</button>
+            <button type="submit">Salvar Cadastro</button>
           </footer>
         </form>
       </main>

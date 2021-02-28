@@ -31,7 +31,8 @@ const Landing = () => {
 
         <RectButton
           onPress={handleNavigateToGiveClassesPage}
-          style={[styles.button, styles.buttonSecondary]}>
+          style={[styles.button, styles.buttonSecondary]}
+        >
           <Image source={giveClassesIcon} />
           <Text style={styles.buttonText}>Dar Aulas</Text>
         </RectButton>

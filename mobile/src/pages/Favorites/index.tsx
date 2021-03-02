@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import styles from './styles';
+import PageHeader from '../../components/PageHeader';
 
 const Favorites = () => {
   return (
     <View style={styles.container}>
-      <Text>Favorites</Text>
+      <PageHeader title="Proffys Disponíveis" />
     </View>
   );
 };

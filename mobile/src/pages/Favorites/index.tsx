@@ -16,11 +16,6 @@ const Favorites = () => {
           paddingBottom: 16
         }}
       >
-        <TeacherItem />
-        <TeacherItem />
-        <TeacherItem />
-        <TeacherItem />
-        <TeacherItem />
       </ScrollView>
     </View>
   );
